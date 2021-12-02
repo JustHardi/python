@@ -242,6 +242,7 @@ def parse():
         get_html(URL)
         with open("index_selenium_pro.html", encoding="utf-8") as file:
             src = file.read()
+
         find_matches(src)
     except Exception as ex:
         print(ex)
