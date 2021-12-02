@@ -85,3 +85,6 @@ if __name__== "__main__":
         print("Dogecoin rate: ", parse_src1() )
     except Exception as ex:
         print(ex)
+
+
+print("Dogecoin rate: ", parse_src1() )
